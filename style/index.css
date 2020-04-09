@@ -94,7 +94,7 @@ body{
 .description{
     box-sizing: border-box;
     color: rgb(83, 83, 83);
-    align-self: flex-end;
+    align-self: center;
     padding-left: 20px;
 
 }
@@ -116,7 +116,7 @@ body{
 .description p{
     margin-top:10px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 2rem;
 }
 
@@ -163,6 +163,9 @@ footer h3{
 button{
     margin-top: 20px;
     font-size: 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: wheat;
 }
 
 
@@ -180,9 +183,22 @@ button{
         width: 80%
     }
 
+    .description p{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media(max-width: 320px){
+    #bigPic{
+        width: 90%;
+    }
+
+    .description p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        color: black;
+    }
 
 
 
