@@ -28,6 +28,7 @@ time, mark, audio, video {
 }
 
 body{
+    font-size: 62.5;
     background-color: wheat;
 }
 
@@ -161,4 +162,17 @@ footer h3{
 button{
     margin-top: 20px;
     font-size: 15px;
+}
+
+
+@media(max-width: 1200px){
+  
+
+
+}
+
+@media(max-width: 900px){
+
+
+
 }
