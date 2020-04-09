@@ -199,7 +199,10 @@ button{
         line-height: 1rem;
         color: black;
     }
+}
 
-
-
+@media(min-width:1920px){
+    *{
+        margin: 40%;
+    }
 }
