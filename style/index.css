@@ -169,7 +169,7 @@ button{
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 800px){
     .navLinks{
         flex-wrap: nowrap;
         margin: 0;
@@ -189,13 +189,13 @@ button{
 
 }
 
-@media(max-width: 320px){
+@media(max-width: 500px){
     #bigPic{
         width: 90%;
     }
 
     .description p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         line-height: 1rem;
         color: black;
     }
