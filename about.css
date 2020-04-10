@@ -26,6 +26,7 @@ time, mark, audio, video {
 }
 
 body{
+    font-size: 62.5%;
     background-color: wheat;
 }
 
@@ -40,7 +41,7 @@ body{
 }
 
 .logo{
-    font-size: 3em;
+    font-size: 4em;
     padding: 1%;
 }
 
@@ -58,40 +59,63 @@ body{
     background-color: wheat;
     border: 1px solid black;
     text-transform: uppercase;
+    font-size: 1rem;
     color: black;
     padding: 5px;
     border-radius: 10px;
 }
-.description h2{
-    font-size: 30px;
+
+.navLinks a:hover{
+    background-color: #384fab;
+    color: wheat;
 }
 
 .description{
-    padding-top: 30px;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.description h2{
+    font-size: 2rem;
+}
+
+.description p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 
 footer{
     display: flex;
+    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    flex-direction: column;
     height: 10vh;
-    padding-top: 20px;
+    margin-top: 10;
     background-color: #2d3f87;
 }
 
-body{
-    height:100vh;
-}
-
-footer h3{
-    font-size: 20px;
+.contactBtn{
+    margin-right: 2%;
 }
 
 button{
-    margin-top: 20px;
-    font-size: 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: wheat;
+}
+
+.iconWrapper{
+    display: flex;
+}
+
+.gmail{
+    margin-right: 10%;
+}
+
+.twitter{
+    margin-left: 10%;
 }

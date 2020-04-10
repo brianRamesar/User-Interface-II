@@ -67,7 +67,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 20%;
+    margin-top: 15%;
 }
 
 .email h2{
@@ -75,5 +75,20 @@ body{
 }
 
 .email a{
+    font-size: 50px;
+}
+
+.twitter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.twitter h2{
+    font-size: 55px;
+}
+
+.twitter a{
     font-size: 50px;
 }
