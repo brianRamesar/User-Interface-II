@@ -28,7 +28,7 @@ time, mark, audio, video {
 }
 
 body{
-    font-size: 62.5;
+    font-size: 62.5%;
     background-color: wheat;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 .logo{
-    font-size: 3em;
+    font-size: 4em;
     padding: 1%;
 }
 
@@ -61,6 +61,7 @@ body{
     background-color: wheat;
     border: 1px solid black;
     text-transform: uppercase;
+    font-size: 1rem;
     color: black;
     padding: 5px;
     border-radius: 10px;
@@ -82,7 +83,7 @@ body{
 .topSec{
     display: flex;
     background-image: url(/double-bubble-dark.png);
-    flex: wrap;
+    
 }
 
 #bigPic{
@@ -91,32 +92,33 @@ body{
 }
 
 .description{
-    box-sizing: border-box;
+    
     color: rgb(83, 83, 83);
-    align-self: center;
+    
     margin-right: 1%;
 }
 
 .description h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 4%;
     color: wheat;
 }
 
 .description a{
     border: 2px solid black;
+    background-color: wheat;
+    color: black;
     padding: 5px;
     border-radius: 5px;
-
+    font-size: 1.5rem;
 }
 
 .description p{
     margin-top:10px;
     margin-bottom: 10px;
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
     color: wheat;
 }
 
@@ -183,6 +185,9 @@ button{
     #bigPic{
         width: 40%;
     }
+    .description{
+        padding: 4%;
+    }
 }
 
 @media(max-width: 800px){
@@ -199,9 +204,13 @@ button{
     #bigPic{
         width: 80%;
     }
+    .description{
+        padding: 5%;
+    }
 
     .description p{
         font-size: 1.5rem;
+        margin:2%
     }
 
 }
